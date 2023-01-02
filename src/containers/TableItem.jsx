@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useToDoContext } from '../context/Context';
 const TableItem = ({task, key}) => {
 	const { removeTask } = useToDoContext();
@@ -5,7 +6,14 @@ const TableItem = ({task, key}) => {
 		removeTask(task);
 	};
   return (
-    <tr>
+    <tr >
+      <td className='bg-black-simple'>
+        <div className="flex items-center space-x-3">
+          <div>
+            <div className="font-bold"><input type="checkbox" className="checkbox" /></div>
+          </div>
+        </div>
+      </td>
       <td className='bg-black-simple'>
         <div className="flex items-center space-x-3">
           <div>

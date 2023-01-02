@@ -18,7 +18,12 @@ const Context = ({ children }) => {
 			task: state.task.filter(items => items.id !== payload.id),
 		});
 	}
-  // const cleanTask = () => setTask([])
+  const cleanTask = () => {
+    setState({
+      ...state,
+      task: []
+    })
+  }
   // const removeTask = (id) => setTask(task.filter(product => product.id !== id))
   // const totalTasks = () => task.reduce((accumalator, currentValue) => accumalator + currentValue.quantity, 0)
   return (
@@ -26,7 +31,8 @@ const Context = ({ children }) => {
       value={{
         state,
         addToTaskList,
-        removeTask
+        removeTask,
+        cleanTask
       }}>
         {children}
       </ToDoContext.Provider>
