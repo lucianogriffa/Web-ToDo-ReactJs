@@ -15,9 +15,9 @@ const TaskGlobal = () => {
     addToTaskList(content, id)
   };
   return (
-    <div className="flex justify-center items-center align-middle mt-4">
-      <InputTextTask handleInput={handleInput} />
+    <div className="flex justify-center items-center align-middle mt-4 bg-background w-2/4 p-3">
       <ButtonAddTask handleButton={handleButton} />
+      <InputTextTask handleInput={handleInput} />
     </div>
   );
 }
