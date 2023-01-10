@@ -13,4 +13,4 @@ const ButtonAddTask = ( { handleButton } ) => {
     </div>
   )
 };
-export default ButtonAddTask
+export default ButtonAddTask;
