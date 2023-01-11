@@ -9,9 +9,9 @@ import CountItems from "./components/CountItems";
 function App() {
   return (
     <Context>
-      <div className="flex flex-col flex-wrap	justify-center items-center content-center pt-10 bg-background">
+      <div className="flex flex-col flex-wrap	justify-center items-center content-center pt-10 bg-background font-fontTheme">
         <div className="flex flex-raw flex-wrap	justify-between	items-center content-center p-5 ">
-          <h1>TO DO</h1>
+          <h1 className="text-3xl">📌 TO DO</h1>
         </div>
         <TaskGlobal/>
         <Table/>
