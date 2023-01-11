@@ -6,11 +6,12 @@ import Table from "./containers/Table";
 import CleanTasksButton from "./components/CleanTasksButton";
 import TasksStates from "./components/TasksStates";
 import CountItems from "./components/CountItems";
+import Footer from "./components/Footer";
 function App() {
   return (
     <Context>
-      <div className="flex flex-col flex-wrap	justify-center items-center content-center pt-10 bg-background font-fontTheme">
-        <div className="flex flex-raw flex-wrap	justify-between	items-center content-center p-5 ">
+      <div className="flex flex-col flex-wrap	justify-center items-center content-center bg-background font-fontTheme h-screen">
+        <div className="flex flex-raw flex-wrap	justify-between	items-center content-center p-3 ">
           <h1 className="text-3xl">📌 TO DO</h1>
         </div>
         <TaskGlobal/>
@@ -21,6 +22,7 @@ function App() {
           <CleanTasksButton/>
         </div>
       </div>
+      <Footer/>
     </Context>
   );
 }

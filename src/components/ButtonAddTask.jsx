@@ -5,11 +5,11 @@ const ButtonAddTask = ( { handleButton } ) => {
     return <button onClick={handleButton} className="btn btn-outline btn-accent w-12 mr-2">+</button>
   }
   const ButtonDisable= () => {
-    return <button disabled className="btn btn-outline btn-accent mt-1">Total Tasks Allowed</button>
+    return <button disabled className="btn btn-outline btn-accent mr-2">Total (6)</button>
   }
   return (
     <div>
-      {state.task.length >= 0 ? <ButtonAdd/> : <ButtonDisable/>}
+      {state.task.length <= 7 ? <ButtonAdd/> : <ButtonDisable/>}
     </div>
   )
 };
