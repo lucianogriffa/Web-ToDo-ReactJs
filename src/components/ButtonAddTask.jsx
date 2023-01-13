@@ -5,7 +5,7 @@ const ButtonAddTask = ( { handleButton } ) => {
     return <button onClick={handleButton} className="btn btn-outline btn-accent w-12 mr-2">➕</button>
   }
   const ButtonDisable= () => {
-    return <button disabled className="btn btn-outline btn-accent mr-2">Total (6)</button>
+    return <button disabled className="btn btn-outline btn-accent mr-2">Total (8)</button>
   }
   return (
     <div>
