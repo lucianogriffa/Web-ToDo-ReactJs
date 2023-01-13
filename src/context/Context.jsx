@@ -87,7 +87,8 @@ const Context = ({ children }) => {
         showAllTasks,
         showActiveTasks,
         showCompletedTasks,
-        activeFilter
+        activeFilter,
+        filteredTodos
       }}>
         {children}
       </ToDoContext.Provider>
