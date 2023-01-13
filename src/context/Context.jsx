@@ -69,11 +69,11 @@ const Context = ({ children }) => {
     if (activeFilter === 'all') {
       setFilteredTodos(tasks);
     } else if (activeFilter === 'active') {
-        const activeTodos = tasks.filter(todo => todo.completed === false);
-        setFilteredTodos(activeTodos);
+      const activeTodos = tasks.filter(todo => todo.completed === false);
+      setFilteredTodos(activeTodos);
     } else if (activeFilter === 'completed') {
-        const completedTodos = tasks.filter(todo => todo.completed === true);
-        setFilteredTodos(completedTodos);
+      const completedTodos = tasks.filter(todo => todo.completed === true);
+      setFilteredTodos(completedTodos);
     }
   },[activeFilter, tasks]);
   return (
@@ -87,6 +87,7 @@ const Context = ({ children }) => {
         showAllTasks,
         showActiveTasks,
         showCompletedTasks,
+        activeFilter
       }}>
         {children}
       </ToDoContext.Provider>
