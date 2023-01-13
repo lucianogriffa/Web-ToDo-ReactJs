@@ -9,10 +9,10 @@ function App() {
     <Context>
       <div className="flex flex-col flex-wrap	justify-center items-center content-center bg-background font-fontTheme h-screen">
         <div className="flex flex-raw flex-wrap	justify-between	items-center content-center p-3 ">
-          <h1 className="text-3xl">📌 TO DO</h1>
+          <h1 className="text-3xl">📌 To Do App</h1>
         </div>
         <TaskGlobal/>
-        <Table />
+        <Table/>
       </div>
       <Footer/>
     </Context>
