@@ -61,7 +61,7 @@ const Context = ({ children }) => {
   const showActiveTasks = () => {
     setActiveFilter('active')
   }
-  // Show Completed Tasks
+  // Show All Tasks
   const showCompletedTasks = () => {
     setActiveFilter('completed')
   }

@@ -1,4 +1,5 @@
 import { useToDoContext } from "../context/Context";
+import check from '../assets/icons/check-icon.svg'
 const TableItem = ( { task } ) => {
   const { 
     completedTasks,
@@ -11,7 +12,7 @@ const TableItem = ( { task } ) => {
         completed ? (
           <div onClick={() => completedTasks(id)} className="bg-green-700 p-1 rounded-full cursor-pointer">
             <img
-              className="h-4 w-4 " src="/check-icon.svg" alt="Check Icon"
+              className="h-4 w-4 " src={check} alt="Check Icon"
             />
           </div>
         )
@@ -26,4 +27,3 @@ const TableItem = ( { task } ) => {
   )
 }
 export default TableItem;
-// <input type="checkbox" className="checkbox" onClick={handleSetComplete}/>

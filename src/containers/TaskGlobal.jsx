@@ -7,7 +7,6 @@ const TaskGlobal = () => {
   const handleAddTodo = (e) => {
     addToTaskList(title);
     setTitle('');
-    console.log(title);
   }
   return (
     <div className="flex justify-center items-center align-middle mt-4 bg-background w-2/4 p-3">

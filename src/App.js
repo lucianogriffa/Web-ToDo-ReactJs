@@ -19,12 +19,3 @@ function App() {
   );
 }
 export default App;
-
-/*
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-align-content: center;
-*/
