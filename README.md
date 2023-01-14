@@ -2,9 +2,9 @@
 ## Technologies
 
 <div class="flex">
-  <img height="50" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg">
+  <img height="50" src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg">
   <img height="50" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg">
-  <img height="50" src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg">
+  <img height="50" src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg">
 </div>
 
 ## [Deploy](https://todoapp-lucianogriffa.netlify.app/)
